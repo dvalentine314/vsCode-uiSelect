@@ -1,0 +1,19 @@
+{
+    "name": "ui-SelectGenerator",
+    "displayName": "ui-SelectGenerator",
+    "description": "allows someone to generate typical ui-select code block",
+    "version": "0.0.1",
+    "publisher": "dvalentine",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets":[{
+            "language":"html",
+            "path": "./snippets/html.json"
+            }]
+    }
+}

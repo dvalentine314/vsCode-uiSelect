@@ -1,0 +1,14 @@
+{
+  "select": {
+    "prefix": "ui-select",
+    "body": [
+        "<ui-select theme=\"bootstrap\">",
+        "<ui-select-match placeholder=\"{Default text}\">",
+        "</ui-select-match>",
+        "<ui-select-choices repeat=\"{element} in {optionsList}\">",
+        "</ui-select-choices>",
+        "</ui-select>"
+    ],
+    "description": "Angular 2 ngClass snippet"
+  }
+}
