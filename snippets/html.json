@@ -2,13 +2,13 @@
   "select": {
     "prefix": "ui-select",
     "body": [
-        "<ui-select theme=\"bootstrap\">",
-        "<ui-select-match placeholder=\"{Default text}\">",
-        "</ui-select-match>",
-        "<ui-select-choices repeat=\"{element} in {optionsList}\">",
-        "</ui-select-choices>",
+        "ui-select theme=\"bootstrap\">",
+        "\t<ui-select-match placeholder=\"${3:DefaulText}\">",
+        "\t</ui-select-match>",
+        "\t<ui-select-choices repeat=\"${1:element} in ${2:optionsList}\">",
+        "\t</ui-select-choices>",
         "</ui-select>"
     ],
-    "description": "Angular 2 ngClass snippet"
+    "description": "vanilla AngularJS ui-select"
   }
 }
