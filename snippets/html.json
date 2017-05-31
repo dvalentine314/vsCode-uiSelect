@@ -9,6 +9,6 @@
         "\t</ui-select-choices>",
         "</ui-select>"
     ],
-    "description": "vanilla AngularJS ui-select"
+    "description": "Vanilla AngularJS ui-select"
   }
 }
